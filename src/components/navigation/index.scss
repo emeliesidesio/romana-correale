@@ -1,0 +1,32 @@
+@import "colours.scss";
+
+.navContainer {
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5rem 4.5rem;
+}
+
+.navContainer a {
+  text-decoration: none;
+}
+
+.white a {
+  color: $white;
+}
+
+.black a {
+  color: $black;
+}
+
+.navRight {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navRight a {
+  margin-left: 1.5rem;
+}

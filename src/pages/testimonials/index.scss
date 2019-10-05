@@ -1,0 +1,29 @@
+@import "colours.scss";
+
+.pagination {
+  width: 6.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem 0;
+  margin: auto;
+}
+
+.paginationButton {
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.paginationButton:hover {
+  text-decoration: underline;
+}
+
+.inactiveLink {
+  color: $grey;
+  cursor: default;
+  text-decoration: none;
+}
+
+.inactiveLink:hover {
+  text-decoration: none;
+}

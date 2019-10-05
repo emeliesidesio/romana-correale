@@ -1,0 +1,34 @@
+@import "colours.scss";
+
+.projectCard {
+  margin: 0 1.5rem 1.5rem 0;
+}
+
+.cardOverlay {
+  width: 22rem;
+  height: 14rem;
+  background: $whiteTransparent;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+
+.cardOverlay:hover {
+  opacity: 1;
+}
+
+.cardTitle {
+  color: $black;
+  font-size: 1.2rem;
+  padding: 0 2.5rem;
+  text-align: center;
+}
+
+.cardImage {
+  width: 22rem;
+  height: 14rem;
+  background-size: cover;
+  background-position: center;
+}

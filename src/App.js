@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter, Route } from "react-router-dom";
+import Home from "pages/home";
+import Contact from "pages/contact";
+import ScrollTop from "components/scrollTop";
+import Project from "pages/project";
+import Testimonials from "pages/testimonials";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <BrowserRouter>
+          <ScrollTop>
+            <div>
+              <Route path="/" exact component={Home} />
+              <Route path="/projects/:id" component={Project} />
+              <Route path="/contact" exact component={Contact} />
+              <Route path="/testimonials" exact component={Testimonials} />
+            </div>
+          </ScrollTop>
+        </BrowserRouter>
+      </div>
+    );
+  }
 }
 
 export default App;

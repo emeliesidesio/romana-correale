@@ -20,3 +20,16 @@
 .socialIcons img {
   width: 2.5rem;
 }
+
+@media (min-width: 360px) and (max-width: 768px) {
+  .footerContainer {
+    height: 10rem;
+  }
+  .copyright {
+    font-size: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  .socialIcons img {
+    width: 1.8rem;
+  }
+}

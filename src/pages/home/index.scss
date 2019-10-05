@@ -32,4 +32,22 @@
 .projectContainer {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+  .imageOverlay {
+    height: 30rem;
+  }
+  .heroImageHome {
+    height: 30rem;
+  }
+  .content {
+    padding: 2rem;
+  }
+  .biography {
+    width: 100%;
+    font-size: 1rem;
+    padding-bottom: 2rem;
+  }
 }

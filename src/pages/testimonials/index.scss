@@ -27,3 +27,13 @@
 .inactiveLink:hover {
   text-decoration: none;
 }
+
+@media (min-width: 360px) and (max-width: 768px) {
+  .pagination {
+    width: 5rem;
+    padding: 0 0 2.5rem 0;
+  }
+  .paginationButton {
+    font-size: 0.6rem;
+  }
+}

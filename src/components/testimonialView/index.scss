@@ -11,3 +11,17 @@
   width: 32rem;
   white-space: pre-wrap;
 }
+
+@media (min-width: 360px) and (max-width: 768px) {
+  .testimonial {
+    margin: 0;
+    padding-top: 8rem;
+  }
+  .testimonialLeft {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .testimonialRight {
+    width: 100%;
+  }
+}

@@ -32,3 +32,17 @@
   background-size: cover;
   background-position: center;
 }
+
+@media (min-width: 360px) and (max-width: 768px) {
+  .projectCard {
+    margin: 0 0 1rem 0;
+  }
+  .cardImage {
+    width: 20rem;
+    height: 12rem;
+  }
+  .cardOverlay {
+    width: 20rem;
+    height: 12rem;
+  }
+}

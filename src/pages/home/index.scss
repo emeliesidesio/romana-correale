@@ -35,7 +35,7 @@
   justify-content: center;
 }
 
-@media (min-width: 360px) and (max-width: 768px) {
+@media (min-width: 360px) and (max-width: 767px) {
   .imageOverlay {
     height: 30rem;
   }
@@ -49,5 +49,22 @@
     width: 100%;
     font-size: 1rem;
     padding-bottom: 2rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .imageOverlay {
+    height: 25rem;
+  }
+  .heroImageHome {
+    height: 25rem;
+  }
+  .content {
+    padding: 3rem;
+  }
+  .biography {
+    width: 60%;
+    font-size: 1rem;
+    padding-bottom: 3rem;
   }
 }

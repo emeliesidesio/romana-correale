@@ -13,9 +13,16 @@
   padding-bottom: 1.5rem;
 }
 
-@media (min-width: 360px) and (max-width: 768px) {
+@media (min-width: 360px) and (max-width: 767px) {
   .profileSmall {
     width: 100%;
+    height: 15rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .profileSmall {
+    width: 20rem;
     height: 15rem;
   }
 }

@@ -45,7 +45,7 @@ body {
   line-height: 1.5rem;
 }
 
-@media (min-width: 360px) and (max-width: 768px) {
+@media (min-width: 360px) and (max-width: 767px) {
   body {
     font-size: 14px;
   }
@@ -69,5 +69,29 @@ body {
   .rightColumn {
     width: 100%;
     line-height: 1.2rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    font-size: 14px;
+  }
+  .heroImage {
+    height: 25rem;
+  }
+  .infoContainer {
+    margin: 3rem;
+  }
+  .title {
+    margin-bottom: 0.8rem;
+  }
+  .leftColumn {
+    width: 13rem;
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+  }
+  .rightColumn {
+    width: 25rem;
+    line-height: 1.4rem;
   }
 }

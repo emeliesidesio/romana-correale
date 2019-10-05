@@ -12,7 +12,7 @@
   white-space: pre-wrap;
 }
 
-@media (min-width: 360px) and (max-width: 768px) {
+@media (min-width: 360px) and (max-width: 767px) {
   .testimonial {
     margin: 0;
     padding-top: 8rem;
@@ -23,5 +23,11 @@
   }
   .testimonialRight {
     width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .testimonialRight {
+    width: 28rem;
   }
 }

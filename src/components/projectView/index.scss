@@ -33,6 +33,20 @@
   background-position: center;
 }
 
+@media (max-width: 320px) {
+  .projectCard {
+    margin: 0 0 0.5rem 0;
+  }
+  .cardImage {
+    width: 16rem;
+    height: 10rem;
+  }
+  .cardOverlay {
+    width: 16rem;
+    height: 10rem;
+  }
+}
+
 @media (min-width: 360px) and (max-width: 767px) {
   .projectCard {
     margin: 0 0 1rem 0;

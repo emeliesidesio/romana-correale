@@ -45,6 +45,35 @@ body {
   line-height: 1.5rem;
 }
 
+@media (max-width: 320px) {
+  body {
+    font-size: 14px;
+  }
+  .heroImage {
+    height: 15rem;
+  }
+  .infoContainer {
+    flex-direction: column;
+    margin: 0;
+    padding: 2rem 2rem 1rem 2rem;
+  }
+  .title {
+    margin-top: 2rem;
+    margin-bottom: 0.8rem;
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
+  .leftColumn {
+    width: 100%;
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+  }
+  .rightColumn {
+    width: 100%;
+    line-height: 1.2rem;
+  }
+}
+
 @media (min-width: 360px) and (max-width: 767px) {
   body {
     font-size: 14px;

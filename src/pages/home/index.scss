@@ -52,7 +52,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024) {
   .imageOverlay {
     height: 25rem;
   }
@@ -66,5 +66,8 @@
     width: 60%;
     font-size: 1rem;
     padding-bottom: 3rem;
+  }
+  .projectContainer {
+    justify-content: left;
   }
 }

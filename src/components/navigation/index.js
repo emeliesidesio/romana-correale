@@ -28,9 +28,27 @@ class Navigation extends React.Component {
         <input id="hamburger" type="checkbox" className="mobileCheckbox" />
 
         <label className="hamburger" htmlFor="hamburger">
-          <div className="bar bar1"></div>
-          <div className="bar bar2"></div>
-          <div className="bar bar3"></div>
+          <div
+            className={
+              this.props.location.pathname === "/testimonials"
+                ? "bar bar1 barBlack"
+                : "bar bar1"
+            }
+          ></div>
+          <div
+            className={
+              this.props.location.pathname === "/testimonials"
+                ? "bar bar2 barBlack"
+                : "bar bar2"
+            }
+          ></div>
+          <div
+            className={
+              this.props.location.pathname === "/testimonials"
+                ? "bar bar3 barBlack"
+                : "bar bar3"
+            }
+          ></div>
         </label>
 
         <div className="menu">

@@ -18,10 +18,8 @@ class Navigation extends React.Component {
           </Link>
           <div className="navRight">
             <a href="/#projects">Projects</a>
-            <Link to="/contact" className="navLeft">
-              Contact
-            </Link>
-            <a href="/testimonials">Testimonials</a>
+            <Link to="/contact">Contact</Link>
+            <Link to="/testimonials">Testimonials</Link>
           </div>
         </div>
 

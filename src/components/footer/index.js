@@ -12,7 +12,7 @@ export default class Footer extends React.Component {
           <a href="https://www.instagram.com/fra_rom_cor_firenze/">
             <img src={instagram} alt="social icon Instagram" />
           </a>
-          <a href="mailto:esidesio@gmail.com">
+          <a href="mailto:lillaessigen@icloud.com">
             <img src={email} alt="social icon email" />
           </a>
           <a href="https://vimeo.com/romanacorreale">

@@ -19,7 +19,7 @@ export default class Contact extends React.Component {
             <div className="contactDetails">
               <div>
                 <span className="headerSmall">Email:&nbsp;</span>
-                francesca@gmail.com
+                lillaessigen@icloud.com
               </div>
               <div>
                 <span className="headerSmall">Instagram:&nbsp;</span>

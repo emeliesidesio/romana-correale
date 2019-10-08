@@ -39,10 +39,10 @@ export default [
     video: "../videos/romanacorreale-bags.mp4",
     videoPlaceholder: "../images/romanacorreale-bags-placeholder.jpg",
     title: "Romana Correale",
-    year: "2014",
+    year: "2009",
     role: "Founder and designer",
     description:
-      "As a tribute to Greenpeace and their effort for our planet we brought together two graffiti artists, Ogre from France and Kaos from Sweden, to paint a wall together. The project, named The Green Giant, was a mix of these legendary artists different styles."
+      "The company was founded in 2009 with the sole porpouse of creating a brand of luxury leather bags entierly made in Tuscany. In every step of the production, from design to distribution. The brand is one with me and my way of living.  The design is playful and functional. The bags are indestructible. The company is looking for investors to believe in the collection and the brand and give it a new start."
   },
   {
     id: "greenpeace",
@@ -57,15 +57,6 @@ export default [
     role: "Creative Director. Producing video and scouting artists.",
     description:
       "As a tribute to Greenpeace and their effort for our planet we brought together two graffiti artists, Ogre from France and Kaos from Sweden, to paint a wall together. The project, named The Green Giant, was a mix of these legendary artists different styles."
-  },
-  {
-    id: "stargem",
-    thumbnailImage: "../images/romanacorreale-stargem-01.png",
-    title: "Stargem",
-    year: "2016",
-    role: "Creative Director. Producing material and scouting artists.",
-    description:
-      "An exhibition in collaboration with the organization Talita and the Swedish graffiti artist YASH."
   },
   {
     id: "breakingfree",
@@ -160,5 +151,14 @@ export default [
     description:
       "A project to show how graffiti could be used in interior design. We created an entire wall of graffiti in a clients home.",
     photographer: "Caroline Jensen"
+  },
+  {
+    id: "stargem",
+    thumbnailImage: "../images/romanacorreale-stargem-01.png",
+    title: "Stargem",
+    year: "2017",
+    role: "Business developer and buyer",
+    description:
+      "International business development for Star Gem, Corsi Gioielli and buyer for Cecchi Gioielleria and Mirolli & Co. The mission contained of expanding the international client portfolio, to create new vibrant and trendy content for the shops and to follow up orders from international clients. To help shift the communication of the company towards a broader range of costumers and a worldwide public. In March 2018 Corsi Giolelli held an auction and a dinner gala in collaboration with the Lebanese Embassy in France, the Universitè Saint-Joseph and Nissan-Renault- Mitsubishi in which Corsi Gioielli gorgeous jewellery was auctioned together with other brands and a Nissan car. The mission of the event was to give scholarships to the students of Université Saint-Joseph, to create brand awareness and reach new international clients."
   }
 ];

@@ -2,6 +2,7 @@ import React from "react";
 import instagram from "assets/social-instagram.png";
 import email from "assets/social-email.png";
 import vimeo from "assets/social-vimeo.png";
+import linkedIn from "assets/social-linkedin.png";
 import "./index.scss";
 
 export default class Footer extends React.Component {
@@ -9,6 +10,9 @@ export default class Footer extends React.Component {
     return (
       <div className="footerContainer">
         <div className="socialIcons">
+          <a href="https://www.linkedin.com/in/francesca-romana-correale-28aa19194/">
+            <img src={linkedIn} alt="social linkedIn" />
+          </a>
           <a href="https://www.instagram.com/fra_rom_cor_firenze/">
             <img src={instagram} alt="social icon Instagram" />
           </a>

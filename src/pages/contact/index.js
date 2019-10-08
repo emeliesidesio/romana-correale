@@ -15,11 +15,15 @@ export default class Contact extends React.Component {
           style={{ backgroundImage: `url(${profileHero})` }}
         />
         <div className="infoContainer">
-          <div className="leftColumn">
+          <div className="leftColumn contact">
             <div className="contactDetails">
               <div>
                 <span className="headerSmall">Email:&nbsp;</span>
                 lillaessigen@icloud.com
+              </div>
+              <div>
+                <span className="headerSmall">LinkedIn:&nbsp;</span>
+                Francesca Romana Correale
               </div>
               <div>
                 <span className="headerSmall">Instagram:&nbsp;</span>

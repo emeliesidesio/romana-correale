@@ -1,0 +1,43 @@
+.loginContainer {
+  text-align: center;
+  margin: 5rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.loginText {
+  width: 30rem;
+}
+
+.loginContainer input {
+  margin-top: 2rem;
+}
+
+.passwordInput {
+  outline: none;
+  border: 1px solid #d2d2d2;
+  width: 10rem;
+  height: 1.8rem;
+  padding-left: 0.4rem;
+  margin-right: 0.8rem;
+}
+
+.submitButton {
+  padding: 0.5rem 1rem;
+  border: none;
+  background: black;
+  color: #ffffff;
+  font-size: 0.7rem;
+  cursor: pointer;
+}
+
+.submitButton:hover,
+.submitButton:focus {
+  background: #3e3e3e;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .loginText {
+    width: 25rem;
+  }
+}

@@ -5,6 +5,7 @@ import Contact from "pages/contact";
 import ScrollTop from "components/scrollTop";
 import Project from "pages/project";
 import Testimonials from "pages/testimonials";
+import Login from "pages/login";
 
 class App extends React.Component {
   render() {
@@ -16,6 +17,7 @@ class App extends React.Component {
               <Route path="/" exact component={Home} />
               <Route path="/projects/:id" component={Project} />
               <Route path="/contact" exact component={Contact} />
+              <Route path="/login" exact component={Login} />
               <Route path="/testimonials" exact component={Testimonials} />
             </div>
           </ScrollTop>

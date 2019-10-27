@@ -28,7 +28,7 @@ export default class LoginStargem extends React.Component {
           <form>
             <div className="loginText">
               To view this project you need to enter a password.
-              To request a password, please email me at lillaessigen@icloud.com.
+              To request a password, please email me at francescaromanacorreale2@gmail.com.
             </div>
             <input
               className="passwordInput"

@@ -152,13 +152,4 @@ export default [
       "A project to show how graffiti could be used in interior design. We created an entire wall of graffiti in a clients home.",
     photographer: "Caroline Jensen"
   },
-  {
-    id: "stargem",
-    thumbnailImage: "../images/romanacorreale-stargem-01.png",
-    title: "Stargem",
-    year: "2017",
-    role: "Business developer and buyer",
-    description:
-      "International business development for Star Gem, Corsi Gioielli and buyer for Cecchi Gioielleria and Mirolli & Co. The mission contained of expanding the international client portfolio, to create new vibrant and trendy content for the shops and to follow up orders from international clients. To help shift the communication of the company towards a broader range of costumers and a worldwide public. In March 2018 Corsi Giolelli held an auction and a dinner gala in collaboration with the Lebanese Embassy in France, the Universitè Saint-Joseph and Nissan-Renault- Mitsubishi in which Corsi Gioielli gorgeous jewellery was auctioned together with other brands and a Nissan car. The mission of the event was to give scholarships to the students of Université Saint-Joseph, to create brand awareness and reach new international clients."
-  }
 ];

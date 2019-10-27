@@ -1,6 +1,7 @@
 import React from "react";
 import "./index.scss";
-import ProjectView from "components/projectView";
+import ProjectView from "components/projectView/projectView.js";
+import ProjectViewStargem from "components/projectView/projectViewStargem.js";
 import Footer from "components/footer";
 import Navigation from "components/navigation";
 import projects from "data/projects";
@@ -43,6 +44,7 @@ class Home extends React.Component {
                 photographer={project.photographer}
               />
             ))}
+            <ProjectViewStargem />
           </div>
         </div>
         <Footer />

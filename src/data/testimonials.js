@@ -22,7 +22,7 @@ export default [
     date: "5 September 2019",
     name: "Olga Collantes",
     position: "Founder",
-    company: "Kindregards",
+    company: "Kind Regards",
     text:
       "To whom it may concern:\n\nIt is with much enthusiasm that I recommend Francesca Romana Correale to work for your company. I was Francesca's co-worker at Graphiare. Francesca displayed a level of creativity, wit, and analytical thought in every project we did.\n\nFrancesca is committed to her community and is always looking for ways to support the people around her. I know her to be trustworthy, reliable, and easy-going.\n\nFrancesca is an intelligent and determined individual. She is perfectly trilingual and has travelled and lived in different countries. She has a capability of gathering and reuniting people of different social classes and cultural backgrounds in the same spot.  She is inclusive and a natural born problem solver. In Stockholm during her projects she created a trend of marketing products and services through the use of art in all its forms. She has my full support in her future endeavours and I’d be very happy to provide more evidence of her qualifications if necessary.\n\nSincerely,\nOlga Collantes"
   },

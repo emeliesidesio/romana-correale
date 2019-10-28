@@ -110,7 +110,7 @@ export default [
       "Creative Director. Producing material and social media strategy. Scouting artists.",
     description:
       "Food fusion with art. A popup art exhibition at Food lab Stockholm where chefs were given the assignment of creating a menu for the guests dedicated to different paintings.",
-    photographer: "Izabella Englund & Victor Bergstedt"
+    photographer: "Caroline Jensen, Izabella Englund & Victor Bergstedt"
   },
   {
     id: "kulturfestivalen",

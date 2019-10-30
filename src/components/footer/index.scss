@@ -13,12 +13,13 @@
 
 .copyright {
   color: $white;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   margin-top: 1rem;
 }
 
 .socialIcons img {
   width: 2.5rem;
+  margin-right: 0.5rem;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -26,7 +27,7 @@
     height: 10rem;
   }
   .copyright {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     margin-top: 0.5rem;
   }
   .socialIcons img {

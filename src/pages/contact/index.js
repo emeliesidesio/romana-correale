@@ -34,6 +34,10 @@ export default class Contact extends React.Component {
                 romanacorreale
               </div>
             </div>
+            <div
+              className="profileSmall"
+              style={{ backgroundImage: `url(${profileSmall})` }}
+            />
           </div>
           <div className="rightColumn">
             <div>
@@ -44,15 +48,15 @@ export default class Contact extends React.Component {
               events.
               <br />
               <br />
-              Contact me for collaborations or business opportunities.
+              <div className="headerSmall">Industries</div>
+              <div>Fashion: Leather accessories</div>
+              <div>Production: Music and film</div>
+              <div>Art: Exhibitions and collaborations</div>
+              <div>Architecture: Interior design</div>
+              <div>Jewellery: International business development</div>
+              <div>Charity: Art and jewellery auctions</div>
             </div>
           </div>
-        </div>
-        <div className="mediaContainer">
-          <div
-            className="profileSmall"
-            style={{ backgroundImage: `url(${profileSmall})` }}
-          />
         </div>
         <Footer />
       </div>

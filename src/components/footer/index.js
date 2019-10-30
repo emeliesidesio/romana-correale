@@ -3,6 +3,7 @@ import instagram from "assets/social-instagram.png";
 import email from "assets/social-email.png";
 import vimeo from "assets/social-vimeo.png";
 import linkedIn from "assets/social-linkedin.png";
+import youtube from "assets/social-youtube.png";
 import "./index.scss";
 
 export default class Footer extends React.Component {
@@ -21,6 +22,9 @@ export default class Footer extends React.Component {
           </a>
           <a href="https://vimeo.com/romanacorreale">
             <img src={vimeo} alt="social icon Vimeo" />
+          </a>
+          <a href="https://www.youtube.com/watch?v=FzttDDONudg">
+            <img src={youtube} alt="social icon YouTube" />
           </a>
         </div>
         <div className="copyright">&#169;Francesca Romana Correale 2019</div>

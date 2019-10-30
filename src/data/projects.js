@@ -88,7 +88,7 @@ export default [
     id: "wateraid",
     thumbnailImage: "../images/romanacorreale-wateraid-01.png",
     projectImage1: "../images/romanacorreale-wateraid-02.jpg",
-    video: "../videos/romanacorreale-kulturfestivalen.mp4",
+    video: "../videos/romanacorreale-wateraid.mp4",
     videoPlaceholder: "../images/romanacorreale-wateraid-placeholder.jpg",
     title: "WaterAid Foundation",
     year: "2015",

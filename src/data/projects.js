@@ -88,7 +88,7 @@ export default [
     id: "wateraid",
     thumbnailImage: "../images/romanacorreale-wateraid-01.png",
     projectImage1: "../images/romanacorreale-wateraid-02.jpg",
-    video: "https://vimeo.com/131957645",
+    video: "../videos/romanacorreale-kulturfestivalen.mp4",
     videoPlaceholder: "../images/romanacorreale-wateraid-placeholder.jpg",
     title: "WaterAid Foundation",
     year: "2015",
@@ -99,11 +99,9 @@ export default [
   {
     id: "foodlab",
     thumbnailImage: "../images/romanacorreale-foodlab-01.jpg",
-    projectImage1: "../images/romanacorreale-foodlab-02.jpg",
-    projectImage2: "../images/romanacorreale-foodlab-03.jpg",
+    projectImage1: "../images/romanacorreale-foodlab-03.jpg",
+    projectImage2: "../images/romanacorreale-foodlab-02.jpg",
     projectImage3: "../images/romanacorreale-foodlab-04.jpg",
-    video: "../videos/romanacorreale-foodlab.mp4",
-    videoPlaceholder: "../images/romanacorreale-foodlab-placeholder.jpg",
     title: "Foodlab Stockholm",
     year: "2015",
     role:

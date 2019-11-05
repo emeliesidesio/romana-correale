@@ -33,16 +33,16 @@ export default [
   {
     id: "romanacorreale",
     thumbnailImage: "../images/romanacorreale-bags-04.jpg",
-    projectImage1: "../images/romanacorreale-bags-03.jpg",
-    projectImage2: "../images/romanacorreale-bags-01.jpg",
-    projectImage3: "../images/romanacorreale-bags-02.jpg",
+    projectImage1: "../images/romanacorreale-bags-01.jpg",
+    projectImage2: "../images/romanacorreale-bags-05.png",
+    projectImage3: "../images/romanacorreale-bags-03.jpg",
     video: "../videos/romanacorreale-bags.mp4",
     videoPlaceholder: "../images/romanacorreale-bags-placeholder.jpg",
     title: "Romana Correale",
     year: "2009",
     role: "Founder and designer",
     description:
-      "The company was founded in 2009 with the sole porpouse of creating a brand of luxury leather bags entierly made in Tuscany. In every step of the production, from design to distribution. The brand is one with me and my way of living.  The design is playful and functional. The bags are indestructible. The company is looking for investors to believe in the collection and the brand and give it a new start."
+      "The company was founded in 2009 with the sole porpouse of creating a brand of luxury leather bags entierly made in Tuscany. In every step of the production, from design to distribution. The brand is one with me and my way of living.  The design is playful and functional. The bags are indestructible. The company is looking for investors to believe in the collection and the brand and give it a new start.\n\nTo view the entire collection: https://www.flickr.com/photos/\nfrancescaromanacorreale/albums/72157628173760739/"
   },
   {
     id: "greenpeace",

@@ -4,6 +4,7 @@ import email from "assets/social-email.png";
 import vimeo from "assets/social-vimeo.png";
 import linkedIn from "assets/social-linkedin.png";
 import youtube from "assets/social-youtube.png";
+import deezer from "assets/social-deezer.png";
 import "./index.scss";
 
 export default class Footer extends React.Component {
@@ -11,20 +12,23 @@ export default class Footer extends React.Component {
     return (
       <div className="footerContainer">
         <div className="socialIcons">
-          <a href="https://www.linkedin.com/in/francesca-romana-correale-28aa19194/">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/francesca-romana-correale-28aa19194/">
             <img src={linkedIn} alt="social linkedIn" />
           </a>
-          <a href="https://www.instagram.com/fra_rom_cor_firenze/">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/fra_rom_cor_firenze/">
             <img src={instagram} alt="social icon Instagram" />
           </a>
           <a href="mailto:francescaromanacorreale2@gmail.com">
             <img src={email} alt="social icon email" />
           </a>
-          <a href="https://vimeo.com/romanacorreale">
+          <a target="_blank" rel="noopener noreferrer" href="https://vimeo.com/romanacorreale">
             <img src={vimeo} alt="social icon Vimeo" />
           </a>
-          <a href="https://www.youtube.com/watch?v=FzttDDONudg">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=FzttDDONudg">
             <img src={youtube} alt="social icon YouTube" />
+          </a>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.deezer.com/us/playlist/1256977821">
+            <img src={deezer} alt="social icon Deezer" />
           </a>
         </div>
         <div className="copyright">&#169;Francesca Romana Correale 2019</div>

@@ -43,6 +43,7 @@ body {
 .rightColumn {
   width: 30rem;
   line-height: 1.5rem;
+  white-space: pre-wrap;
 }
 
 @media (max-width: 320px) {

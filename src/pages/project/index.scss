@@ -34,6 +34,15 @@
   font-style: italic;
 }
 
+.projectLink {
+  text-decoration: none;
+  color: black;
+}
+
+.projectLink:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 320px) {
   .mediaContainer {
     margin: 0 2rem;

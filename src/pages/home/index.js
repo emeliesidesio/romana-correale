@@ -42,6 +42,7 @@ class Home extends React.Component {
                 text={project.description}
                 video={project.video}
                 photographer={project.photographer}
+                link={project.link}
               />
             ))}
             <ProjectViewStargem />

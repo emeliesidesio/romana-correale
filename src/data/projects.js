@@ -42,7 +42,8 @@ export default [
     year: "2009",
     role: "Founder and designer",
     description:
-      "The company was founded in 2009 with the sole porpouse of creating a brand of luxury leather bags entierly made in Tuscany. In every step of the production, from design to distribution. The brand is one with me and my way of living.  The design is playful and functional. The bags are indestructible. The company is looking for investors to believe in the collection and the brand and give it a new start.\n\nTo view the entire collection: https://www.flickr.com/photos/\nfrancescaromanacorreale/albums/72157628173760739/"
+      "The company was founded in 2009 with the sole porpouse of creating a brand of luxury leather bags entierly made in Tuscany. In every step of the production, from design to distribution. The brand is one with me and my way of living.  The design is playful and functional. The bags are indestructible. The company is looking for investors to believe in the collection and the brand and give it a new start.\n\n",
+    link: "https://www.flickr.com/photos/francescaromanacorreale/albums/72157628173760739/"
   },
   {
     id: "greenpeace",

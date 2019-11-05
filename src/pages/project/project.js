@@ -51,7 +51,13 @@ export default class ProjectPage extends React.Component {
           </div>
           <div className="rightColumn">
             <div className="title">{this.state.project.title}</div>
-            <div>{project.description}</div>
+            <span>
+              {project.description}
+              {project.link && (
+                <a target="_blank" rel="noopener noreferrer" className="projectLink"
+                href={project.link}>View the collection</a>
+              )}
+            </span>
           </div>
         </div>
         <div className="mediaContainer" id="mediaContainer">
